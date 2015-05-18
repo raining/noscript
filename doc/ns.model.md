@@ -183,8 +183,8 @@ this.get('.bar.id') -> ["1"]
         { "id": 1 }
     ]
 }
-this.get('.foo') -> ["1"]
-this.get('.bar.id') -> ["1"]
+this.select('.foo') -> ["1"]
+this.select('.bar.id') -> ["1"]
 ```
 
 **Методы для изменения данных**:
